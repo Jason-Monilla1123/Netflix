@@ -1,0 +1,633 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow-x: hidden;
+    background-color: whitesmoke;
+ 
+}
+.main-content {
+    background: url(Images/bg.jpg) no-repeat center center/cover;
+    height: 80vh;
+}
+
+.image-container img {
+    position: relative;
+    left: 200px;
+    top: 30px;
+    width: 150px;
+    height: 40px;
+}
+
+.select-section {
+    position: relative;
+    display: flex;
+    justify-content: end;
+    right: 200px;
+    bottom: 0px;
+}
+
+.select-section select {
+    position: relative;
+    width: 100px;
+    height: 40px;
+    font-size: 1.0rem;
+    text-align: center;
+    background-color: transparent;
+    border-radius: 5px;
+    color: white;
+}
+
+.select-section select option {
+    background-color: gray;
+    color: white;
+}
+
+.select-section button {
+    width: 100px;
+    font-size: 1.0rem;
+    background-color: red;
+    color: white;
+    margin: 0 15px;
+    border-radius: 5px;
+}
+
+.text-section h1 {
+    text-align: center;
+    font-size: 4.0rem;
+    color: white;
+    margin: 180px 0 0 0;
+    font-weight: initial bold;
+   
+}
+
+.text-section h3 {
+    text-align: center;
+    color: white;
+    margin: 30px;
+    font-weight: 300;
+    font-size: 2rem;
+}
+
+.text-section h2 {
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    text-transform: lowercase;
+    font-weight: 300;
+}
+
+.email {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    
+}
+
+.email input {
+    width: 400px;
+    height: 55px;
+    background-color: transparent;
+    font-size: 20px;
+    color: white;
+    font-style: inherit;
+    margin: 0 10px;
+
+}
+
+.email button {
+    width: 190px;
+    height: 55px;
+    border-radius: 5px;
+    background-color: red;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 300;
+    justify-content: center;
+    border-color: transparent;
+    cursor: pointer;
+}
+.email button:hover {
+   color:floralwhite;
+}
+
+
+
+.second-section {
+    height: 70vh;
+    background-color: black;
+    position: relative;
+    margin: 10px 0px 0 0px;
+
+}
+
+.second-section img {
+    float: right;
+    position: relative;
+    width: auto;
+    margin: 50px 250px;
+}
+
+.second-container h1 {
+    color: white;
+    font-size: 70px;
+    left: 300px;
+    top: 250px;
+    position: relative;
+
+}
+
+.second-container h2 {
+    margin: 30px 0 0 0;
+    color: white;
+    font-size: 30px;
+    left: 300px;
+    top: 250px;
+    position: relative;
+    font-weight: 300;
+}
+.third-section {
+    height: 70vh;
+    background-color: black;
+    margin: 10px 0px 0 0px;
+}
+.third-section img {
+   float: left;
+    position: relative;
+    margin: 50px 200px;
+    height: 75%;
+    width: 40%;
+}
+.third-container{
+    position: relative;
+    bottom: 100px;
+}
+.third-container h1 {
+    color: white;
+    font-size: 3.5rem;
+    position: relative;
+    right: 250px;
+    top: 350px;
+    font-weight: bold;
+}
+
+.third-container h2 {
+    color: white;
+    position: relative;
+    right: 250px;
+    top: 350px;
+    margin: 10px;
+    font-weight: 300px;
+}
+
+.fourth-container{
+    height: 50vh;
+    background-color: black;
+    margin: 10px 0px 0 0px;
+}
+.fourth-container h1{
+    color: white;
+    text-align: center;
+    font-size: 3.5rem;
+    top: 150px;
+    position: relative;
+    font-weight: bold;
+}
+.fourth-container h2{
+    text-align: center;
+    color:white;
+    font-weight: 300;
+    font-size: 2.5rem;
+    top: 150px;
+    position: relative;
+    padding: 10px 550px 0px 550px;
+}
+
+.fifth-section {
+    height: 60vh;
+    background-color: black;
+    margin: 10px 0px 0 0px;
+}
+.fifth-container {
+   
+    position: relative;
+    right: 150px;
+    top: 150px;
+}
+.fifth-container h1 {
+   
+    color: white;
+    font-size: 5.5rem;
+    position: relative;
+    font-weight: bold;
+}
+.fifth-container h2 {
+  
+    color: white;
+    position: relative;
+    margin: 25px;
+    font-weight: bold;
+}
+.fifth-section img {
+    float: left;
+    margin: 0px 150px;
+    height: 75%;
+    width: 40%;
+}
+.Questions{
+    min-height: 140vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20%;
+    margin: 10px 0px 0 0px;
+}
+
+.Questions h1{
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+    position: relative;
+    bottom: 250px;
+}
+.faq{
+   
+}
+.ques{
+    background-color: #2d2d2d;
+    padding:  30px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+.ques p{
+    color: white;
+}
+.ques:hover{
+    background-color: #545454;
+}
+.ans {
+    max-height: 0px;
+    width: 100%;
+    overflow:hidden;
+    transition: max-height .3s ease-in-out;
+    font-size: 2.0rem;
+    background-color: #545454;
+    color: white;
+}
+.ans p{
+    font-size: 1.5rem;
+    padding: 20px 25px 20px 25px;
+}
+.faq.active .ans{
+    max-height: 300px;
+
+}
+.fa-plus{
+    color: white;
+}
+.faq.active i{
+    transform: rotate(45deg);
+}
+.listQuestion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    bottom: 150px;
+}
+.Questions h3{
+    color: white;
+    position: relative;
+    top:20px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+#email {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    
+}
+
+#email input {
+    width: 400px;
+    height: 55px;
+    background-color: transparent;
+    font-size: 20px;
+    color: white;
+    font-style: inherit;
+    margin: 0 10px;
+
+}
+
+#email button {
+    width: 190px;
+    height: 55px;
+    border-radius: 5px;
+    background-color: red;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 300;
+    justify-content: center;
+    border-color: transparent;
+    cursor: pointer;
+}
+#email button:hover {
+   color:black;
+}
+.footer{
+    background-color: aliceblue;
+    height: 40vh;
+}
+@media only screen and (min-width: 400px) and (max-width: 769px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .image-container img {
+        width: 80px;
+        position: relative;
+        height: 25px;
+        left: 30px;
+        top: 30px;
+    }
+
+    .select-section {
+        position: relative;
+        display: flex;
+        justify-content: end;
+        right: 0px;
+        bottom: 0px;
+    }
+
+    .select-section select {
+        width: 80px;
+        height: 30px;
+        position: relative;
+        font-size: 1rem;
+        right: 0px;
+        background-color: transparent;
+        color: white;
+    }
+
+    .select-section select option {
+        color: white;
+        background-color: black;
+    }
+    .select-section button {
+        width: 80px;
+        height: 30px;
+        position: relative;
+        font-size: 1rem;
+        background-color: red;
+        color: white;
+    }
+
+    /*  */
+    .text-section {
+        position: relative;
+        bottom: 50px;
+        left: 0;
+    }
+
+    .text-section h1 {
+        font-size: 1.8rem;
+
+    }
+
+    .text-section h3 {
+        font-size: 1.0rem;
+        bottom: 30px;
+        position: relative;
+        font-weight: 200;
+    }
+
+    .text-section h2 {
+        font-size: 1.5rem;
+        bottom: 50px;
+        position: relative;
+        font-weight: 300;
+    }
+
+    .email input {
+        bottom: 50px;
+        position: absolute;
+        height: 35px;
+        width: 290px;
+        background-color: transparent;
+        
+    }
+
+    .email button {
+        width: 180px;
+        border-radius: 5px;
+        height: 50px;
+        position: absolute;
+        background-color: red;
+        font-size: 15px;
+        justify-content: center;
+        color: white;
+        bottom: -20px;
+    }
+
+    .second-section {
+        position: relative;
+        margin: 10px 0 0px 0;
+    }
+
+    .second-container h1 {
+        font-size: 2.5rem;
+        left: 0;
+        position: relative;
+        text-align: center;
+        top: 50px;
+    }
+
+    .second-container h2 {
+        font-size: 1.5rem;
+        left: 0;
+        bottom: 150px;
+        position: absolute;
+        text-align: center;
+        top: 100px;
+
+    }
+
+    .second-section img {
+        width: 350px;
+        height: 290px;
+        position: absolute;
+        margin: 0px 250px 0px 30px;
+        top: 200px;
+    }
+
+    .third-section {}
+
+    .third-section img {
+        width: auto;
+        height: auto;
+    }
+    .third-container{
+        top: 0;
+    }
+
+    .third-container h1 {
+        font-size: 2.0rem;
+        left: 0;
+        position: relative;
+        text-align: center;
+        top: 50px;
+    }
+
+    .third-container h2 {
+        font-size: 1.5rem;
+        position: relative;
+        left: 0;
+        right: 0;
+        top: 50px;
+        bottom: 0;
+        font-weight: 300;
+        text-align: center;
+    }
+
+    .third-section img {
+        width: 350px;
+        height: 290px;
+        position: absolute;
+        margin: 190px 250px 0px 20px;
+
+    }
+
+    .fourth-container {
+        
+    }
+
+    .fourth-container h1 {
+        font-size: 3.0rem;
+        top: 150px;
+    }
+
+    .fourth-container h2 {
+        font-size: 1.0rem;
+        top: 150px;
+        padding: 0;
+    }
+
+    .fifth-container {
+        top: 30px;
+        left: 0;
+        position: relative;
+    }
+
+    .fifth-container h1 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .fifth-section img {
+        width: 350px;
+        height: 290px;
+        position: absolute;
+        margin: 150px 250px 0px 20px;
+    }
+
+    .fifth-container h2 {
+        font-size: 1.0rem;
+        text-align: center;
+        bottom: 20px;
+    }
+    
+    .Questions{
+        min-height: 120vh;
+    
+    }
+    .Questions h1{
+        font-size: 1.8rem;
+        position: relative;
+        bottom: 400px;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .listQuestion{
+        display: flex;
+        align-items: center;
+      
+        flex-direction: column;
+        gap: 20px;
+        position: absolute;
+        bottom: 150px;
+    
+    }
+    
+    .ans{
+        position: relative;
+       
+    }   
+    .ques{
+        height: 50px;
+       
+    }
+    
+    .ques p{
+        font-size: 1.0rem;
+    }
+    
+    .ques:hover{
+        background-color: #545454;
+    }
+    .faq {
+        width: 350px;
+        height:100%;
+        position: relative;
+        bottom: 50px;
+        
+    }
+    .ans p{
+        font-size: 15px;
+        padding: 10px 15px 10px 15px;
+    
+    }
+    #email{
+        position: relative;
+   
+    }
+    #email input{
+        position: absolute;
+        width: 330px;
+        height: 35px;
+        margin: 10px;
+        font-size: 15px;
+    }
+    #email button{
+      position: absolute;
+      width: 150px;
+      height: 45px;
+      margin: 60px;
+      font-size: 15px;
+     
+    }
+    .Questions h3{
+        position: relative;
+        font-size: 15px;
+        bottom: 100px;
+
+    }
+}

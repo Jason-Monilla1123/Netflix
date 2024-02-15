@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="loginStyle.css">
+    <title>LOGIN</title>
+</head>
+<body>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+        background-image: url(Images/bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+          
+        }
+        .image-container img{
+        position: relative;
+        left: 200px;
+        top: 30px;
+        width: 150px;
+        height: 30px;
+        }
+        .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+        
+        }
+        .sign-in-form h2{
+            text-align: center;
+            color: white;
+        }
+        .sign-in-form{
+        background-color: rgba(0, 0, 0, 0.8);
+        padding: 50px;
+        border-radius: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        height: 60vh;
+        width: 500px;
+      
+        }
+        .input-group{
+         padding: 50px;
+
+        }
+        .input-group input{
+            display: block;
+            width: 300px;
+            margin: 20px 0px 0px 0px;
+            background-color: rgba(0, 0, 0, 0.1);
+            height: 40px;
+            border-radius: 5px;
+            color: white;
+
+        }
+        .input-group a{
+            justify-content: center;
+            margin: 20px;
+            color: white;
+            display: flex;
+            text-decoration: none;
+        }
+        .input-group a:hover{
+            text-decoration: underline;
+        }
+        .input-group button{
+            width: 300px;
+            margin: 20px 0px 0px 0px;
+            height: 45px;
+            background-color: red;
+            color: white;
+            border-radius: 5px;
+        }
+        .remember{
+
+        }
+        .remember input{
+            width: 25px;
+            height: 18px;
+        }
+        .remember label{
+            color: white;
+            font-weight: 400;
+        }
+        .SignUp{
+            display: flex;
+            position: relative;
+            top: 10px;
+        }
+        .SignUp p{
+            color: gray;
+            font-weight: 500;
+        }
+        .SignUp a {
+            margin: 0 10px;
+            color: white;
+            text-decoration: none;
+        }
+        .SignUp a:hover{
+           
+            text-decoration: underline;
+        }
+
+        .captcha{
+            color: gray;
+            margin: 30px 0 0 0;
+            display: block;
+        }
+        .captcha a{
+        color: blue;
+        text-decoration: none;
+        }
+        .captcha a:hover{
+            text-decoration: underline;
+        }
+        @media only screen and (min-width: 400px) and (max-width: 769px) { 
+        body{
+            height: 90vh;
+            background: black ;
+
+        }
+        .image-container img {
+        width: 80px;
+        position: relative;
+        height: 25px;
+        left: 30px;
+        top: 30px;
+        }
+        .remember{
+            position: relative;
+            left: 50px;
+            top: 0;
+        }
+        .SignUp{
+            position: relative;
+            left: 50px;
+            top: 0;
+            margin: 10px 0px 0px 0px;
+        }
+        .captcha{
+            position: relative;
+            left: 50px;
+            top: 0;
+            margin: 10px 0px 0px 0px;
+            
+        }
+        }
+    </style>
+
+<div class="image-container">
+    <img src="./Images/logo.png alt=">
+</div>
+<div class="container">
+<form class="sign-in-form">
+    <h2>Sign In</h2>
+    <div class="input-group">
+        <input type="text" name="" id="" placeholder="Email or Phone Number">
+        <input type="text" name="" id="" placeholder="Password">
+        <button class="Submit">Sign In</button>
+        <a href="forgot">Forgot Password?</a>
+    </div>
+    <div class="remember">
+        <input type="checkbox">
+        <label for="">Remember me</label>
+    </div>
+    <div class="SignUp">
+        <p>New to Netflix?</p>
+        <a href="signup">Sign up now</a>
+    </div>
+    <div class="captcha">
+        <p>This page is protected by Google reCAPTCHA to ensure you're not a bot.<a href="">Learn more</a></p>
+      
+    </div>
+</form>
+</div>
+</body>
+<script src="Script.js"></script>
+</html>
